@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <div className="min-h-screen relative overflow-x-hidden">
+        <div className="min-h-screen relative">
           <div className="aurora" aria-hidden />
           <Navbar />
           <main className="relative z-10">{children}</main>

@@ -7,10 +7,10 @@ import { services } from '../lib/constants'
 
 export default function Services() {
   return (
-    <>
+    <section id="services">
       <div className="text-center mb-8">
         <h3 className="text-3xl font-bold gradient-text">What We Build</h3>
-        <p className="text-(--muted) mt-2">Full-spectrum web development — from CMS to custom code.</p>
+        <p className="text-[color:var(--muted)] mt-2">Full-spectrum web development — from CMS to custom code.</p>
       </div>
 
       <motion.div className="grid gap-6 grid-cols-1 md:grid-cols-3">
@@ -22,12 +22,12 @@ export default function Services() {
               </div>
               <div>
                 <h4 className="font-semibold">{s.title}</h4>
-                <p className="text-(--muted) mt-2 text-sm">{s.description}</p>
+                <p className="text-[color:var(--muted)] mt-2 text-sm">{s.description}</p>
               </div>
             </div>
           </motion.article>
         ))}
       </motion.div>
-    </>
+    </section>
   )
 }
