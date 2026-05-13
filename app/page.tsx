@@ -6,6 +6,7 @@ import TechStack from '../components/TechStack'
 import Portfolio from '../components/Portfolio'
 import Testimonials from '../components/Testimonials'
 import Contact from '../components/Contact'
+import ScrollSentences from '../components/ScrollSentences'
 
 const HeroCanvas = dynamic(() => import('../components/HeroCanvas'), { ssr: false })
 
@@ -24,6 +25,9 @@ export default function Page() {
       </section>
       <section className="max-w-7xl mx-auto px-6 py-20">
         <Portfolio />
+      </section>
+      <section className="py-8 border-t border-[color:var(--border)]">
+        <ScrollSentences />
       </section>
       <section className="max-w-5xl mx-auto px-6 py-20">
         <Testimonials />
