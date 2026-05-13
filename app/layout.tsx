@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata = {
-  title: 'DevStudio — Premium Web Development',
-  description: 'Custom WordPress, Next.js, Node.js development — DevStudio.'
+  title: 'Prime Web LLC',
+  description: 'Prime Web LLC — custom WordPress, Next.js, and Node.js development.'
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

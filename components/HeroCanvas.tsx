@@ -389,9 +389,6 @@ export default function HeroCanvas() {
               <motion.a whileHover={{ scale: 1.05 }} href="#contact" className="btn-primary shadow-[0_0_40px_rgba(108,99,255,0.18)]">
                 Start a Project
               </motion.a>
-              <motion.a whileHover={{ scale: 1.05 }} href="#work" className="btn-ghost bg-[rgba(255,255,255,0.02)]">
-                View Our Work
-              </motion.a>
             </motion.div>
 
             <motion.div

@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic'
 import Services from '../components/Services'
 import Process from '../components/Process'
 import TechStack from '../components/TechStack'
-import Portfolio from '../components/Portfolio'
 import Testimonials from '../components/Testimonials'
 import Contact from '../components/Contact'
 import ScrollSentences from '../components/ScrollSentences'
@@ -22,9 +21,6 @@ export default function Page() {
       </section>
       <section className="py-12 border-t border-[color:var(--border)]">
         <TechStack />
-      </section>
-      <section className="max-w-7xl mx-auto px-6 py-20">
-        <Portfolio />
       </section>
       <section className="py-8 border-t border-[color:var(--border)]">
         <ScrollSentences />
