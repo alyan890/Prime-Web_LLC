@@ -11,26 +11,44 @@ const HeroCanvas = dynamic(() => import('../components/HeroCanvas'), { ssr: fals
 
 export default function Page() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <HeroCanvas />
-      <section className="max-w-7xl mx-auto px-6 py-24">
-        <Services />
+      
+      <section id="services" className="py-24">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <Services />
+        </div>
       </section>
-      <section className="max-w-7xl mx-auto px-6 py-20">
-        <Process />
+
+      <section id="process" className="py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <Process />
+        </div>
       </section>
-      <section className="py-12 border-t border-[color:var(--border)]">
-        <TechStack />
+
+      <section id="tech" className="py-12 border-t border-(--border)">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <TechStack />
+        </div>
       </section>
-      <section className="max-w-7xl mx-auto px-6 py-20">
-        <Portfolio />
+
+      <section id="work" className="py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <Portfolio />
+        </div>
       </section>
-      <section className="max-w-5xl mx-auto px-6 py-20">
-        <Testimonials />
+
+      <section id="testimonials" className="py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <Testimonials />
+        </div>
       </section>
-      <section className="max-w-3xl mx-auto px-6 py-20">
-        <Contact />
+
+      <section id="contact" className="py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <Contact />
+        </div>
       </section>
-    </>
+    </div>
   )
 }
